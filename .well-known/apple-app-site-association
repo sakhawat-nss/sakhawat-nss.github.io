@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["8FU4V2MYQ2.IQ3.AR.WebARonARKit1test"],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/buy/*",
+            "comment": "Matches any URL with a path that starts with /buy/."
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["8FU4V2MYQ2.IQ3.AR.WebARonARKit1test.Clip"]
+  }
+}
